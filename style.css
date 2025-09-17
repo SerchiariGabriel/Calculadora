@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'open sans';
+    src: url();
+}
+
+
+body{
+    background-color: darkslategrey;
+}
+
+.calculadora{
+    margin: auto;
+    width: max-content;
+    background-color: rgb(38, 37, 43);
+    padding: 20px;
+}
+
+.tela{
+    width: 244px;
+    height: 50px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 20px;
+    color: #1a1819;
+}
+.btt{
+    cursor: pointer;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    font-family: 'open sans';
+    transition: 0.4s;
+}
+
+.btt:hover{
+    background-color: rgb(40, 89, 133);
+    color: darkslateblue;
+}
+
+.small{
+    width: 50px;
+}
+
+.big{
+    width: 114px;
+}
+
+.op{
+    background-color: lightslategrey;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.com{
+    background-color: rgb(235, 116, 36);
+}
+
+.equal{
+    background-color: brown;
+    color: antiquewhite;
+}
+
+.num{
+    background-color: rgb(243, 243, 243);
+}
